@@ -344,8 +344,10 @@ h3{
 .section-testimonials{
     background-image:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url("./img/back-customers.jpg");
     color:#fff;
-    background-attachment: fixed;
-    background-size: cover;
+    /* cool effect for images */
+    background-attachment: fixed; 
+    /* We always do this */
+    background-size: cover;   
 }
 
 blockquote{
