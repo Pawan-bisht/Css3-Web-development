@@ -7,8 +7,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
-    
+html,
+body{
+    overflow-x: hidden;
     color: #555;
     font-family: 'Lato','Arial', sans-serif;
     font-size: 20px;
@@ -38,7 +39,7 @@ header{
     height:100vh;
     background-size: cover;
     background-position:center;
-    background-attachment: fixed;
+    background-attachment:fixed;
 }
 
 /*---------------LINKS---------------*/
@@ -148,9 +149,11 @@ h3{
 .hero-text-box {
     position: absolute;
     width: 1140px;
+    /* both below lines is to make an element in a center of screen */
     top: 50%;
     left:50%;
     transform: translate(-50%,-50%);
+
 }
 
 .logo{
@@ -535,6 +538,7 @@ footer {
 .social-links li a:link,
 .social-links li a:visited{
     font-size: 180%;
+    margin-bottom: 20px;
 }
 
 footer p{
